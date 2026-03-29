@@ -1,2 +1,3 @@
 # Honeypot-Scanning-tool
-Tool written in python I wrote to pull a .pcap file from my OpenCanary honeypot thats running tshark. The script/app scans the .pcap file against a whitelist and notifies the user of unknown devices 
+This is a tool I created in Python to pull a .pcap file via SCP/SSH from my OpenCanary honeypot running tshark. The script/GUI scans the .pcap file against a whitelist and notifies the user of unknown devices. The whitelist can be edited to add known MAC and/or IP addresses.
+Through self-guided training and education in Python and Linux, I created this tool to better understand network traffic and how one can monitor it. I have since learned that MAC and IP addresses can be spoofed, making this tool unsuitable for production use. A new version is currently in development that will combat spoofing to ensure the tool works as intended, as well as adding other customizable features such as, scanning filters by protocol.
